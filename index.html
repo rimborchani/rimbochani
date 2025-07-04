@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rim Borchani – Portfolio</title>
+  <link href="styles.css" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+    :root {
+      --rose-soft: #f5c8d0;  /* E25-68 */
+      --peach: #f1b6a2;      /* E14-7 */
+      --beige-light: #fdf5ef; /* 14-1 */
+    }
+  </style>
+</head>
+<body class="bg-[var(--beige-light)] text-black">
+
+  <!-- Header -->
+  <header class="bg-[var(--rose-soft)] py-16 px-8 shadow">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row-reverse items-center gap-8">
+      <!-- Photo à droite -->
+      <img src="photo.png" alt="Photo de Rim Borchani" class="w-60 h-60 rounded-full border-4 border-white shadow-md object-cover" />
+      <!-- Présentation -->
+      <div class="text-center md:text-left">
+        <h1 class="text-5xl font-bold">Rim Borchani</h1>
+        <p class="mt-4 text-lg max-w-2xl mx-auto md:mx-0">
+          Étudiante en ingénierie informatique à l’école Esprit | Développeuse passionnée
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- À propos -->
+  <section class="px-8 py-16 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-8">👩‍💻 À propos de moi</h2>
+    <p class="mb-4">
+      Je m'appelle <strong>Rim Borchani</strong>, j’ai 21 ans, et je suis en deuxième année du cycle ingénieur en informatique à l’école <strong>Esprit</strong>. Je me prépare à intégrer la troisième année, avec une solide base en développement logiciel et une passion croissante pour le web.
+    </p>
+    <p class="mb-4">
+      Durant ma formation, j’ai acquis des compétences en <strong>C, C++ et Python</strong>, ainsi qu’en <strong>structures de données</strong> et conception d’algorithmes. J’ai aussi développé des interfaces graphiques en utilisant <strong>Qt Creator</strong> dans le cadre d’un projet logiciel éducatif.
+    </p>
+    <p class="mb-4">
+      Parallèlement, je m’intéresse au <strong>développement web</strong>, en travaillant avec <strong>HTML, CSS, JavaScript</strong>. Pour soigner mes interfaces, j’ai utilisé les outils <strong>Adobe Photoshop</strong> pour créer des affiches et flyers, <strong>Adobe Illustrator</strong> pour concevoir des logos, et <strong>Adobe Premiere Pro</strong> pour réaliser des montages vidéo.
+    </p>
+   
+  </section>
+
+  <!-- Projets -->
+  <section class="bg-[var(--peach)] px-8 py-16">
+    <h2 class="text-3xl font-semibold text-center mb-12">💼 Mes projets</h2>
+    <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-bold mb-2">🧠 Application Quiz</h3>
+        <p>Une application interactive développée avec HTML/CSS/JavaScript pour tester les connaissances des utilisateurs de manière ludique.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-bold mb-2">🖥️ Interface Qt Creator</h3>
+        <p>Projet d’interface utilisateur développé avec Qt Creator et C++, intégrant des fonctionnalités pédagogiques et une navigation intuitive.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-bold mb-2">🎨 Design Adobe</h3>
+        <p>Utilisation d’Adobe Photoshop pour créer des affiches et des flyers, d’Adobe Illustrator pour concevoir des logos, et d’Adobe Premiere Pro pour réaliser des montages vidéo, apportant une vraie valeur ajoutée en communication visuelle.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compétences -->
+<section class="px-8 py-16 max-w-5xl mx-auto">
+  <h2 class="text-3xl font-semibold mb-10 text-center">🛠️ Compétences</h2>
+  
+  <!-- Compétences Techniques -->
+  <div class="mb-12">
+    <h3 class="text-2xl font-semibold mb-4">💻 Compétences techniques</h3>
+    <ul class="list-disc list-inside space-y-2 text-base">
+      <li><strong>Développement web :</strong> HTML, CSS, JavaScript</li>
+      <li><strong>Programmation :</strong> C, C++, Qt</li>
+      <li><strong>Développement de jeux vidéo :</strong> Conception, logique de jeu, interface utilisateur</li>
+      <li><strong>Utilisation de logiciels :</strong> Visual Studio, Qt Creator</li>
+      <li><strong>Bases en gestion de bases de données</strong></li>
+      <li><strong>Création graphique :</strong> Affiches, logos, dessins numériques</li>
+      <li><strong>Logiciels de design :</strong> Photoshop, Illustrator, Canva</li>
+      <li><strong>Compétences créatives :</strong> Sens de la communication visuelle et graphique</li>
+    </ul>
+  </div>
+
+  <!-- Compétences Générales -->
+  <div>
+    <h3 class="text-2xl font-semibold mb-4">🎯 Compétences générales</h3>
+    <div class="flex flex-wrap gap-4">
+      <span class="bg-gray-100 px-4 py-2 rounded">Gestion du temps</span>
+      <span class="bg-gray-100 px-4 py-2 rounded">Capacités d’organisation</span>
+      <span class="bg-gray-100 px-4 py-2 rounded">Communication</span>
+      <span class="bg-gray-100 px-4 py-2 rounded">Esprit d’équipe</span>
+      <span class="bg-gray-100 px-4 py-2 rounded">Gestion du stress</span>
+      <span class="bg-gray-100 px-4 py-2 rounded">Pack Office (Microsoft)</span>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contacts (liens directs) + Formulaire -->
+<section class="bg-white py-16 px-8">
+  <h2 class="text-3xl font-semibold text-center mb-10">📱 Me contacter</h2>
+  <div class="flex justify-center flex-wrap gap-8 text-lg text-center mb-12">
+    <a href="https://www.facebook.com/rim.borchani" target="_blank" class="text-blue-700 hover:underline">Facebook</a>
+    <a href="https://www.linkedin.com/in/rim-borchani-a68247301/" target="_blank" class="text-blue-600 hover:underline">LinkedIn</a>
+    <a href="https://wa.me/21656591106" target="_blank" class="text-green-600 hover:underline">WhatsApp</a>
+  
+  </div>
+
+  <!-- Formulaire de contact -->
+<form action="https://formspree.io/f/xgvyqbry" method="POST" class="bg-[var(--beige-light)] p-6 rounded-lg shadow space-y-4 max-w-xl mx-auto">
+  <div>
+    <label for="email" class="block text-sm font-medium mb-1">Votre adresse email</label>
+    <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded p-2" placeholder="ex: exemple@email.com" />
+  </div>
+
+  <div>
+    <label for="message" class="block text-sm font-medium mb-1">Votre message</label>
+    <textarea id="message" name="message" rows="5" required class="w-full border border-gray-300 rounded p-2" placeholder="Écrivez votre message ici..."></textarea>
+  </div>
+
+  <button type="submit" class="bg-[var(--rose-soft)] text-black px-6 py-2 rounded hover:bg-pink-300 transition">
+    Envoyer
+  </button>
+</form>
+
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-[var(--peach)] text-sm">
+    &copy; 2025 Rim Borchani – Tous droits réservés.
+  </footer>
+
+</body>
+</html>
